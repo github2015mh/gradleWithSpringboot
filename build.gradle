@@ -2,7 +2,7 @@
 buildscript {
 
     repositories {
-        maven { url "http://maven.zz.com/nexus/content/groups/public/" }
+        maven { url "http://repo.spring.io/snapshot" }
     }
 
     dependencies {
@@ -21,7 +21,7 @@ apply plugin: "spring-boot"
 sourceCompatibility = 1.8
 
 repositories {
-    maven { url "http://maven.zz.com/nexus/content/groups/public/" }
+    maven { url "http://repo.spring.io/snapshot" }
 }
 
 ext {
